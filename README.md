@@ -1,4 +1,4 @@
-## Este es un ejercicio de las sesiones de html, javascript y css aplicandolo al proyecto que estamos realizando
+## Este es un ejercicio de las sesiones con el formador en html, javascript y css aplicandolo al proyecto que estamos realizando
 
 ### Funcionamiento
 #### Asi es como se vera al principio, debido a que no hemos ingresado datos
