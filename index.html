@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/ico" href="images/icon_page.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CRUD dinamico con HTMLS, CSS and JS">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+    <title>Crud JS</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <figure class="logo">
+          <img src="images/icon_page.png" height="60" alt="Logo de la pagina" />
+        </figure>
+          <nav class="menu">
+            <ol>
+              <li>
+                <a class="link" href="#footer">Acerca de</a>
+              </li>
+              <li>
+                <a class="link" href="#header">FreshMart</a>
+              </li>
+            </ol>
+          </nav>
+      </header>
+    <br/>
+            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+              <div class="tablita">
+                <table class="tabla" id="tabla">
+                  <thead>
+                    <tr> 
+                      <th>Producto</th>
+                      <th>Marca</th>
+                      <th>Medida</th>  
+                      <th>Fecha de ingreso</th>
+                      <th>Fecha de vencimiento</th>
+                      <th>Acción</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+      
+                    </tbody>
+                </table>
+              </div>
+              <br/>
+              <br/>
+              <div class="caja">
+                <label for="nom">Nombre del producto</label> <input type="text" id="nom" placeholder="Escriba aqui" required>
+                <label for="pais">Marca</label> <input type="text" id="marc" placeholder="Escriba aqui" required>
+                <label for="pais">Medida</label> <input type="text" id="med" placeholder="Escriba aqui" required>
+                <label for="ape">Fecha de ingreso</label><input type="date" id="ing" placeholder="Escriba aqui" required>
+                <label for="pais">Fecha de vencimiento</label> <input type="date" id="venc" placeholder="Escriba aqui" required>
+              </div>
+              <br/>
+              <input class="submit" type="submit" value="Agregar producto">
+              </form>
+        <br/>
+        <br/>
+        </div>
+   <footer class="footer" id="footer">
+      <a rel="noopener" target="_blank" class="social footer-fb" href="https://es-la.facebook.com/"></a>
+      <a rel="noopener" target="_blank" class="social footer-twitter" href="https://twitter.com/"></a>
+      <a rel="noopener" target="_blank" class="social footer-instagram" href="https://www.instagram.com/"></a>
+      <a rel="noopener" target="_blank" class="social footer-github" href="https://github.com/luisguillermomolero/MisionTIC2022"></a>
+      <a rel="noopener" target="_blank" class="social footer-linkedin" href="https://www.linkedin.com/"></a>
+   </footer>
+</body>
+<script type="text/javascript" src="js/crud.js"></script>
+</html>
